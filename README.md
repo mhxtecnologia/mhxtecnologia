@@ -21,7 +21,7 @@ clean architecture, automated tests, security by default and software that is ea
 
 ## Portfolio
 
-Every project below was written from scratch as a showcase: one-command setup with Docker,
+Every project below was written from scratch as a showcase: one-command setup,
 real tests and a green CI pipeline.
 
 | Project | What it shows | Stack | CI |
@@ -29,3 +29,4 @@ real tests and a green CI pipeline.
 | [**recurring-billing-api**](https://github.com/mhxtecnologia/recurring-billing-api) | Subscription billing with Pix charges, background jobs and idempotent HMAC-signed webhooks | NestJS · PostgreSQL · Prisma · BullMQ | [![CI](https://github.com/mhxtecnologia/recurring-billing-api/actions/workflows/ci.yml/badge.svg)](https://github.com/mhxtecnologia/recurring-billing-api/actions/workflows/ci.yml) |
 | [**solid-shop-api**](https://github.com/mhxtecnologia/solid-shop-api) | E-commerce backend in Clean Architecture: catalog, JWT auth and a cart with money in cents | NestJS · TypeScript · PostgreSQL · Docker | [![CI](https://github.com/mhxtecnologia/solid-shop-api/actions/workflows/ci.yml/badge.svg)](https://github.com/mhxtecnologia/solid-shop-api/actions/workflows/ci.yml) |
 | [**solid-shop-web**](https://github.com/mhxtecnologia/solid-shop-web) | Storefront for Solid Shop with a BFF that keeps the token in an HttpOnly cookie | Next.js 15 · React · Redux · Vitest | [![CI](https://github.com/mhxtecnologia/solid-shop-web/actions/workflows/ci.yml/badge.svg)](https://github.com/mhxtecnologia/solid-shop-web/actions/workflows/ci.yml) |
+| [**dupfind**](https://github.com/mhxtecnologia/dupfind) | Cross-platform CLI that finds duplicate files: size pre-filter, partial hash, then parallel BLAKE3; release binaries for Linux, Windows and macOS | Rust · rayon · BLAKE3 · clap | [![CI](https://github.com/mhxtecnologia/dupfind/actions/workflows/ci.yml/badge.svg)](https://github.com/mhxtecnologia/dupfind/actions/workflows/ci.yml) |
